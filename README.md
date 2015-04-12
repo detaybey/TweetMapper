@@ -7,4 +7,6 @@ TweetMapper is a simple tool to follows this twitter account, tries to find a me
 
 For Geocoding, Yandex's Map API is used. For API access I used @exister's YandexGeocoder library https://github.com/exister/YandexGeocoder
 
+For Twitter API Access Tweetinvi is used. More about Tweetinvi on https://tweetinvi.codeplex.com/
+
 You can customize the code for accessing twitter API, appconfig contains credentials for a dummy app I created on Twitter.
