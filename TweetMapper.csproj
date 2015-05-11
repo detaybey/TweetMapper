@@ -91,11 +91,10 @@
       <HintPath>packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.WebRequest" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System.XML" />
     <Reference Include="Tweetinvi">
       <HintPath>packages\TweetinviAPI.0.9.6.1\lib\Tweetinvi.dll</HintPath>
     </Reference>
@@ -135,12 +134,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="TweetMapper_TemporaryKey.pfx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\YandexLib\YandexLib.csproj">
-      <Project>{344a9168-b98e-4898-9775-6d516e7c1e60}</Project>
-      <Name>YandexLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
